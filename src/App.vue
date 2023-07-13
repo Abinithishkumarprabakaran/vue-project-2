@@ -1,17 +1,20 @@
 <template>
   <v-app>
-    <DataTable />
+    <!-- <DataTable /> -->
+    <EmployeeDetails />
   </v-app>
 </template>
 
 <script>
-import DataTable from './components/DataTable';
+// import DataTable from './components/DataTable';
+import EmployeeDetails from './components/EmployeeDetails.vue';
 
 export default {
   name: 'App',
 
   components: {
-    DataTable,
+    // DataTable,
+    EmployeeDetails,
   },
 
   data: () => ({
